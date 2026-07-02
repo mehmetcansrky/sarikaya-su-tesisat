@@ -1,0 +1,188 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#222;
+line-height:1.6;
+}
+
+.ustbar{
+background:#001b4d;
+color:#fff;
+text-align:center;
+padding:12px;
+font-size:14px;
+font-weight:600;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#fff;
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#003c99;
+}
+
+.logo span{
+display:block;
+font-size:16px;
+color:#0099ff;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:#222;
+font-weight:500;
+}
+
+.telefon{
+background:#005eff;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 8%;
+background:linear-gradient(135deg,#001b4d,#005eff);
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero h1 span{
+display:block;
+color:#4db5ff;
+}
+
+.hero p{
+margin:20px 0;
+font-size:24px;
+}
+
+.butonlar{
+display:flex;
+gap:15px;
+margin-top:25px;
+}
+
+.wp,.ara{
+padding:15px 30px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+color:white;
+}
+
+.wp{
+background:#25D366;
+}
+
+.ara{
+background:#0066ff;
+}
+
+.logo-kutu{
+background:white;
+color:#003c99;
+padding:40px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.logo-kutu h2{
+font-size:50px;
+}
+
+#hizmetler{
+padding:70px 8%;
+}
+
+#hizmetler h2{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+color:#003c99;
+}
+
+.kartlar{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.kart{
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+font-weight:600;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.kart:hover{
+transform:translateY(-8px);
+}
+
+#hakkimizda,#iletisim{
+padding:70px 8%;
+}
+
+footer{
+background:#001b4d;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+}
